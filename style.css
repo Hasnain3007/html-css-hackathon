@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    padding: 10px;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}

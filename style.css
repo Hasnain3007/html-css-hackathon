@@ -112,21 +112,24 @@ nav h1 {
 
 .section1 {
     margin-top: 100px;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .section1 h2 {
     font-weight: bolder;
 }
-.first{
-padding: 10px;
+
+.first {
+    padding: 10px;
 
 }
-.bg1{
+
+.bg1 {
     border-radius: 5px;
     border: 1px solid gray;
 }
-.bg1 button{
+
+.bg1 button {
     width: 100px;
     height: 30px;
     outline: none;
@@ -135,9 +138,11 @@ padding: 10px;
     background-color: rgb(0, 59, 149);
     color: white;
 }
-.bgmain{
+
+.bgmain {
     padding: 10px;
 }
+
 .bg12 {
     background-image: url(https://r-xx.bstatic.com/xdata/images/xphoto/500x500/220031205.jpeg?k=bf9841e8ba89dfdf92e02d45e45dc89fcca2d981b7c74ad57d3ecf6ba64ba1c2&o=);
     background-size: cover;
@@ -147,19 +152,84 @@ padding: 10px;
     background-image: url(https://q-xx.bstatic.com/xdata/images/xphoto/714x300/293799350.jpeg?k=8a6f4e24c37096fbdcd3c3d30c9f3dcea15ce35751448466decf791918012a64&o=);
     background-size: cover;
 }
-.bg2 h3{
+
+.bg2 h3 {
     color: white;
 }
-.bg2 p{
+
+.bg2 p {
     width: 300px;
     color: white;
 }
-.bg2 button{
+
+.bg2 button {
     width: 200px;
     height: 30px;
     outline: none;
     border: none;
     font-weight: bold;
     background-color: rgb(0, 59, 149);
-    color: white;   
+    color: white;
+}
+.section2{
+    height: 900px;
+}
+.mainsec h1 {
+    color: gray;
+    font-weight: bolder;
+    /* height: 300px; */
+}
+
+.d1 {
+    height: 300px;
+    background-image: url(https://cf.bstatic.com/xdata/images/city/600x600/688249.jpg?k=42442ea62b97c8d6b57b4b6171b406e6778a9b160b4ce0c69f53726b397c7d3e&o=);
+    background-size: contain;
+    /* background-repeat: no-repeat; */
+}
+
+.d1:hover {
+    cursor: pointer;
+    border: 1px solid rgb(255, 183, 0);
+    border-radius: 5px;
+
+}
+
+.d2 {
+    background-image: url(https://cf.bstatic.com/xdata/images/city/600x600/977220.jpg?k=ee4b7b42c35b8cbf09c8ddb7630092b40cd706fec153c41904ed6e252a883938&o=);
+    background-size: contain;
+}
+
+.d2:hover {
+    cursor: pointer;
+    border: 1px solid rgb(255, 183, 0);
+    border-radius: 5px;
+
+}
+
+.d11 {
+    background-image: url(https://cf.bstatic.com/xdata/images/city/600x600/724981.jpg?k=d2a74ca55c128d783c4a6836713abe2ef7874ba2cc276b9f671df017ff24da19&o=);
+    background-size: contain;
+}
+
+.d12 {
+    background-image: url(https://cf.bstatic.com/xdata/images/city/600x600/688591.jpg?k=9a550fedccb750cfa3f2e8eaf507287d4007f21def68e6566cc00b200946e876&o=);
+    background-size: contain;
+
+}
+
+.d13 {
+    background-image: url(https://cf.bstatic.com/xdata/images/city/600x600/640442.jpg?k=90687d20998ee01829027c5e6396a0b8c6d9198bb76bd5ffc7c49c5b779e18ae&o=);
+    background-size: contain;
+}
+
+.hover {
+    color: white;
+    height: 200px;
+    padding: 10px;
+}
+
+.hover:hover {
+    cursor: pointer;
+    border: 1px solid rgb(255, 183, 0);
+    border-radius: 5px;
 }
